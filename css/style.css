@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto.ttf") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Italic.ttf") format("truetype"); /* Укажите правильное имя вашего файла курсива */
+  font-weight: 100 900;
+  font-stretch: 75% 100%;
+  font-style: italic; /* Этот файл отвечает за курсив */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header,
+.footer {
+  background: #1f2937;
+  align-items: center;
+  color: white;
+  padding: 40px;
+}
+
+.logo-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  padding: 0 50px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 5px;
+  flex: 1;
+}
+
+div img {
+  width: 100%;
+}
+
+.about {
+  display: flex;
+  margin-bottom: 60px;
+  color: #e5e7eb;
+  font-size: 18px;
+  padding: 0 50px;
+}
+
+.about > div {
+  flex: 1 1 50%;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #f9faf8;
+}
+
+.text {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding: 10pxpx;
+}
+
+h2 {
+  text-align: center;
+  margin: 25px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+.card-img {
+  height: 120px;
+  width: 120px;
+  border: 2px solid #3882f6;
+  border-radius: 5px;
+}
+
+.card-text {
+  width: 120px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+  text-align: justify;
+  padding: 25px;
+  font-style: italic;
+  background-color: #e6e6e6;
+  padding: 100px 150px;
+}
+
+.author-quote {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  text-align: end;
+  padding: 10px;
+}
+
+.button-sign-up {
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #3882f6;
+  height: 30px;
+  width: 90px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.its-time {
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 50%;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 25px;
+  margin: 50px;
+}
+
+.its-time > .text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.subtext {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.its-time > .button-sign-up {
+  color: white;
+  border: 2px solid white;
+}
+.footer {
+  font-size: 14px;
+  text-align: center;
+}
